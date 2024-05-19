@@ -1,0 +1,30 @@
+[X]	1. wprowadzanie komunikatĂłw (1p)
+		- komunikaty wpisywane z klawiatury (zatwierdzanie Enterem)
+		- rozpoznanie co najmniej trzech komunikatĂłw (co najmniej informacja w konsoli)
+		- wyglad prompta, jego zachwanie (brak moĹźliwoĹci "wyjĹcia")
+		- po wejĹciu do gry domyĹlnie wpisuje duĹźe znaki (caps/shift - ewentualna zmiana)
+
+[X]	2. mapa, ruch (1p)	
+		- moĹźliwoĹÄ przechodzenia po dostÄpnych lokalizacjach (E/W/N/S), pokazywanie odpowiedniej grafiki i nazw lokalizacji
+		- pokazanie odpowiednich kierunkĂłw na kompasie + "You can go"
+
+	3. przemieszczanie przedmiotĂłw (max 1.5p)
+[X]	(0.5p)	- rozmieszczone przedmioty poczÄtkowe - "You see"
+[X]	(1p)	- dziaĹanie polecenia T(TAKE) / D(DROP) - "You see" + "You are carrying" (z obostrzeniami)
+
+[X]	4. komunikaty (1p)	
+		- pokazywanie odpowiednich komunikatĂłw co najmniej trzech poleceĹ (np. przy przechodzeniu po lokalizacjach, use, vocabulary itp.)
+		- co najmniej dwa wybrane komunikaty "z timeoutem" (np. prĂłba wejĹcia na lokacjÄ za smokiem)
+
+	5. logika gry (max 2.5p)
+[X]	(1p)	- polecenie U(USE) (odpowiedni komunikat, uzyskanie przedmiotĂłw - doprowadzenie do conajmniej jednej czÄĹci owcy)
+[X]	(1.5p)	- oprogramowanie wszystkich zaleĹźnoĹci (przedmioty) doprowadzajÄcych do ukoĹczenia gry, moĹźliwoĹÄ ukoĹczenia gry (bez "oszustw") - caĹa logika dziaĹa
+			
+[X]	6. dodatki (0.5p)
+		- czoĹĂłwka, instrukcja gry
+		- hejnaĹ
+		- polecenia V(VOCABULARY), G(GOSSIPS)
+
+[X]	7. Projekt podzielony na moduĹy (0.5p)
+
+SUMA PUNKTĂW: 

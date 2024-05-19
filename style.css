@@ -1,0 +1,125 @@
+@font-face {
+    font-family: retro;
+    src: url('/src/fonts/PressStart2P.ttf');
+}
+
+* {
+    user-select: none;
+}
+
+p {
+    font-family: retro;
+    color: white;
+    font-size: 24px;
+}
+
+pre {
+    margin: 0;
+}
+
+html,
+body {
+    margin: 0;
+    background-color: black;
+    height: 100%;
+}
+
+input {
+    caret-color: transparent;
+}
+
+.overlay {
+    background-color: blueviolet;
+    width: 640px;
+    image-rendering: pixelated;
+    border: 3px solid white;
+}
+
+.kompas {
+    width: 320px;
+    image-rendering: pixelated;
+    aspect-ratio: initial;
+}
+
+.cov-N {
+    left: 143px;
+    width: 16px;
+    height: 17px;
+    position: absolute;
+    background-color: black;
+    top: 0px;
+}
+
+.cov-S {
+    bottom: 6px;
+    left: 151px;
+    width: 16px;
+    height: 17px;
+    position: absolute;
+    background-color: black;
+}
+
+.cov-W {
+    top: 40px;
+    left: 18px;
+    width: 16px;
+    height: 18px;
+    position: absolute;
+    background-color: black;
+}
+
+.cov-E {
+    top: 40px;
+    left: 284px;
+    width: 16px;
+    height: 18px;
+    position: absolute;
+    background-color: black;
+}
+
+input {
+    background-color: black;
+    border: 0;
+    color: white;
+    font-size: 24px;
+    font-family: retro;
+}
+
+input:focus {
+    outline: 0;
+}
+
+@keyframes slideInFromLeft {
+    0% {
+        filter: opacity(0);
+    }
+
+    100% {
+        filter: opacity(1);
+    }
+}
+
+.miau {
+    animation: 1s ease-out 0s 1 slideInFromLeft;
+}
+
+.caret {
+    height: 100%;
+    background-color: white;
+    font-family: retro;
+    color: black;
+    font-size: 24px;
+    width: 24px;
+}
+
+.termText {
+    height: 100%;
+    background-color: black;
+    font-family: retro;
+    color: white;
+    font-size: 24px;
+}
+
+.root {
+    padding: 0 2em 0 2em;
+}
